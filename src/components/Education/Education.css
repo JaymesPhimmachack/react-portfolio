@@ -1,0 +1,19 @@
+.education {
+  display: grid;
+  grid-template-rows: 50px 1fr;
+  grid-template-columns: 1fr 1fr;
+  margin: 30px 10px;
+}
+
+.education:first-of-type {
+  border-bottom: 1px solid #000;
+}
+
+.education__desc {
+  padding: 30px 10px;
+  grid-column: 1 / -1;
+}
+
+.education__desc-item {
+  margin: 7px 0;
+}

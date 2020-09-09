@@ -1,0 +1,29 @@
+.footer {
+  padding: 10px 0;
+  font-size: 1.6rem;
+  background-color: #3366ff;
+  color: #f0f0f5;
+}
+
+.container {
+  max-width: 980px;
+  display: flex;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.footer__link-item {
+  list-style: none;
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.footer__link {
+  font-size: 2rem;
+}
+
+.footer__link i {
+  color: #f0f0f5;
+}

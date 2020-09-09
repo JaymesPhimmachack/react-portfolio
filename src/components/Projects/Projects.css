@@ -1,0 +1,66 @@
+.projects {
+  max-width: 980px;
+  margin: 30px auto 70px;
+  color: #212529;
+}
+
+.projects__main-heading {
+  text-align: center;
+  text-transform: uppercase;
+  color: #3366ff;
+}
+
+.projects__sub-heading {
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.projects__technologies {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40rem;
+  font-size: 4.5rem;
+  margin: 10px auto;
+}
+
+.projects__technologies i {
+  margin: 20px;
+}
+
+.projects__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.fa-html5 {
+  color: #e34f26;
+}
+.fa-css3-alt {
+  color: #0170ba;
+}
+.fa-react {
+  color: #6dd7f9;
+}
+.fa-node {
+  color: #8dc43d;
+}
+.fa-js-square {
+  color: #f2da30;
+}
+.fa-sass {
+  color: #cc6699;
+}
+.fa-grunt {
+  color: #f29f2a;
+}
+.fa-elementor {
+  color: #b32964;
+}
+
+@media only screen and (max-width: 650px) {
+  .projects__list {
+    display: flex;
+    flex-direction: column;
+  }
+}
