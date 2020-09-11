@@ -1,0 +1,17 @@
+.notfound {
+  max-width: 980px;
+  margin: 30px auto;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.notfound__main-heading {
+  margin-bottom: 50px;
+}
+
+.notfound__sub-heading {
+  margin-bottom: 30px;
+}
