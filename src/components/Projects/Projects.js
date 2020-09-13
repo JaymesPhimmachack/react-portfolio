@@ -82,15 +82,6 @@ class Projects extends Component {
         },
         {
           image:
-            "https://res.cloudinary.com/dcuvoemqb/image/upload/v1599686942/audience-945449_1280_f0ejjc.jpg",
-          name: "ConcertFinder",
-          description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          website: "#",
-          github: "#",
-        },
-        {
-          image:
             "https://res.cloudinary.com/dcuvoemqb/image/upload/v1599686928/screen_shot_2020-09-09_at_15.08.09_vwhayr.png",
           name: "Resume",
           description:
