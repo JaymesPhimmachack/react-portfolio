@@ -24,7 +24,7 @@ class Header extends Component {
             Jaymes Phimmachack
           </Link>
           <button onClick={this.handleClick} className='navbar__nav-toggler'>
-            <i class='fas fa-bars navbar__nav-toggler-icon'></i>
+            <i className='fas fa-bars navbar__nav-toggler-icon'></i>
           </button>
           <div className={`navbar__nav ${this.state.show ? "show" : ""}`}>
             <ul className='navbar__nav-list'>

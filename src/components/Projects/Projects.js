@@ -100,7 +100,7 @@ class Projects extends Component {
           <h4 className='projects__sub-heading'>Technologies:</h4>
           <div className='projects__technologies'>
             {this.state.technologies.map((technology) => (
-              <i key={technology} class={technology}></i>
+              <i key={technology} className={technology}></i>
             ))}
           </div>
         </div>
@@ -108,6 +108,7 @@ class Projects extends Component {
           {this.state.projects.map(
             ({ image, name, description, website, github }) => (
               <Project
+                key={name}
                 image={image}
                 name={name}
                 description={description}

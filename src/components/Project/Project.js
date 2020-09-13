@@ -11,10 +11,10 @@ const Project = ({ image, name, description, website, github }) => (
       <p className='project__title'>
         {name}
         <Link className='project__link' to={website}>
-          <i class='fas fa-globe'></i>
+          <i className='fas fa-globe'></i>
         </Link>
         <Link className='project__link' to={github}>
-          <i class='fab fa-github'></i>
+          <i className='fab fa-github'></i>
         </Link>
       </p>
       <p className='project__desc'>{description}</p>

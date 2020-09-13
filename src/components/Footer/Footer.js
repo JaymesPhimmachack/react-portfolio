@@ -12,12 +12,12 @@ const Footer = () => (
             className='footer__link'
             to='https://www.linkedin.com/in/jaymes-phimmachack-b82a58b6/'
           >
-            <i class='fab fa-linkedin'></i>
+            <i className='fab fa-linkedin'></i>
           </Link>
         </li>
         <li className='footer__link-item'>
           <Link className='footer__link' to='https://twitter.com/CodeZero1'>
-            <i class='fab fa-twitter-square'></i>
+            <i className='fab fa-twitter-square'></i>
           </Link>
         </li>
         <li className='footer__link-item'>
@@ -25,7 +25,7 @@ const Footer = () => (
             className='footer__link'
             to='https://github.com/JaymesPhimmachack'
           >
-            <i class='fab fa-github-square'></i>
+            <i className='fab fa-github-square'></i>
           </Link>
         </li>
       </ul>

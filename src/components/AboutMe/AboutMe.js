@@ -73,7 +73,7 @@ class AboutMe extends Component {
                   className='about-me__link'
                   to='https://www.linkedin.com/in/jaymes-phimmachack-b82a58b6/'
                 >
-                  <i class='fab fa-linkedin'></i>
+                  <i className='fab fa-linkedin'></i>
                 </Link>
               </li>
               <li className='about-me__link-item'>
@@ -81,7 +81,7 @@ class AboutMe extends Component {
                   className='about-me__link'
                   to='https://twitter.com/CodeZero1'
                 >
-                  <i class='fab fa-twitter-square'></i>
+                  <i className='fab fa-twitter-square'></i>
                 </Link>
               </li>
               <li className='about-me__link-item'>
@@ -89,7 +89,7 @@ class AboutMe extends Component {
                   className='about-me__link'
                   to='https://github.com/JaymesPhimmachack'
                 >
-                  <i class='fab fa-github-square'></i>
+                  <i className='fab fa-github-square'></i>
                 </Link>
               </li>
             </ul>
@@ -98,12 +98,9 @@ class AboutMe extends Component {
         <div className='about-me__education-list'>
           <h4 className='about-me__education-heading'>Education</h4>
           {this.state.educations.map(
-            (
-              { year, location, school, fieldOfStudy, descriptionList },
-              index
-            ) => (
+            ({ year, location, school, fieldOfStudy, descriptionList }) => (
               <Education
-                key={index}
+                key={fieldOfStudy}
                 year={year}
                 location={location}
                 school={school}

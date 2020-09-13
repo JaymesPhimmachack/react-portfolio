@@ -8,7 +8,7 @@ const Education = ({
   fieldOfStudy,
   descriptionList,
 }) => (
-  <div className='education'>
+  <div key={fieldOfStudy} className='education'>
     <div className='education__time'>
       <p>{year}</p>
       <p>{location}</p>
