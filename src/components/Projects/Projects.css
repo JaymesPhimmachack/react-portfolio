@@ -1,5 +1,5 @@
 .projects {
-  max-width: 980px;
+  max-width: 1120px;
   color: #212529;
   display: flex;
   flex-direction: column;
@@ -21,13 +21,13 @@
 .projects__technologies {
   display: flex;
   flex-wrap: wrap;
-  width: 40rem;
+  width: 30rem;
   font-size: 4.5rem;
   margin: 10px auto;
 }
 
-.projects__technologies i {
-  margin: 20px;
+.icon {
+  margin: 10px;
 }
 
 .projects__list {
@@ -35,33 +35,46 @@
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 40px;
-  font-size: 1.4rem;
 }
 
-.fa-html5 {
+.html5 {
   color: #e34f26;
 }
-.fa-css3-alt {
+.css3 {
   color: #0170ba;
 }
-.fa-react {
+.react {
   color: #6dd7f9;
 }
-.fa-node {
+.node {
   color: #8dc43d;
 }
-.fa-js-square {
+.js-badge {
   color: #f2da30;
 }
-.fa-sass {
+.sass {
   color: #cc6699;
 }
-.fa-grunt {
-  color: #f29f2a;
+.npm {
+  color: #CB3837;
 }
-.fa-elementor {
-  color: #b32964;
+.ruby {
+  color: #E9573F;
 }
+.ruby-on-rails {
+  color: #CC0000;
+}
+.postgresql {
+  color: #345F88;
+}
+.bootstrap {
+  color: #7952B3;
+}
+.mongodb {
+  color: #13AA52;
+}
+
+
 
 @media only screen and (max-width: 650px) {
   .projects {

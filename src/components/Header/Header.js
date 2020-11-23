@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import { HiMenu } from "react-icons/hi";
 import "./Header.css";
 
 class Header extends Component {
@@ -24,7 +25,7 @@ class Header extends Component {
             Jaymes Phimmachack
           </Link>
           <button onClick={this.handleClick} className='navbar__nav-toggler'>
-            <i className='fas fa-bars navbar__nav-toggler-icon'></i>
+            < HiMenu />
           </button>
           <div className={`navbar__nav ${this.state.show ? "show" : ""}`}>
             <ul className='navbar__nav-list'>

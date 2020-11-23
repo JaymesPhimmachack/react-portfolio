@@ -18,7 +18,7 @@ const Education = ({
       <p>{fieldOfStudy}</p>
     </div>
     <div className='education__desc'>
-      <ul>
+      <ul className="education__desc-list">
         {descriptionList.map((description, index) => (
           <li className='education__desc-item' key={index}>
             {description}

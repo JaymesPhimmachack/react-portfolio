@@ -1,23 +1,28 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { DiGithubBadge, DiFirefox } from "react-icons/di";
 import "./Project.css";
 
-const Project = ({ image, name, description, website, github }) => (
+const Project = ({ image, name, descriptions, website, github }) => (
   <div className='project'>
     <div className='project__image-container'>
       <img className='project__image' src={image} alt={name} />
     </div>
     <div className='project__detail'>
-      <p className='project__title'>
-        {name}
-        <Link className='project__link' to={website}>
-          <i className='fas fa-globe'></i>
-        </Link>
-        <Link className='project__link' to={github}>
-          <i className='fab fa-github'></i>
-        </Link>
-      </p>
-      <p className='project__desc'>{description}</p>
+      <div className='project__title'>
+        <div>{name}</div>
+        <div>
+          <Link className='project__link' to={website}>
+            < DiFirefox className="icon-link firefox" />
+          </Link>
+          <Link className='project__link' to={github}>
+            < DiGithubBadge className="icon-link github" />
+          </Link>
+        </div>
+      </div>
+      <ul className='project__desc'>{
+        descriptions.map((description, index) => <li key={index}>{description}</li>)
+      }</ul>
     </div>
   </div>
 );
